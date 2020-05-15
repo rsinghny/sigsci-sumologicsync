@@ -17,6 +17,5 @@ This would require also adding multiple cron jobs in the file crontab.
 docker build -t sigsci-sumologicsync .
 
 # Run Docker
-docker run -d sigsci-sumologicsync
-
-
+docker run -d sigsci-sumologicsync 
+# sigsci-sumologic-sync
