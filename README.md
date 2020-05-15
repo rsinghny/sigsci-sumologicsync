@@ -1,6 +1,4 @@
-# sigsci-sumologicsync
-This Docker image will poll the SigSci API for requests and then push the returned json data to a SumoLogic HTTP collector.
-Sync SigSci request data with SumoLogic HTTP collector
+# Sync SigSci request data with SumoLogic HTTP collector
 This Docker image will poll the SigSci API for requests and then push the returned json data to a SumoLogic HTTP collector.
 
 The default setting is to poll the SigSci API every 5 minutes and ask for requests from the last 5 minutes.
@@ -15,10 +13,10 @@ You can also customize this Docker configuration to run multiple Python scripts 
 
 This would require also adding multiple cron jobs in the file crontab.
 
-Build Docker
+# Build Docker
 docker build -t sigsci-sumologicsync .
 
-Run Docker
+# Run Docker
 docker run -d sigsci-sumologicsync
 
 
